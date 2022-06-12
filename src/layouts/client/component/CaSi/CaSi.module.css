@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.itemCaSi{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 2%;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px black;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.hoTen{
+    position:absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0);
+    display: flex;
+}
+.hoTen:hover{
+    transform: translate(0%,0%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}

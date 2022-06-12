@@ -1,0 +1,51 @@
+.header{
+    position: fixed;
+    padding: 25px;
+    background-color:darkcyan;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+ }
+.logo{
+    font-size: 20px;
+    font-weight: 700;
+    color: aquamarine;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+.item {
+    width: 90px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;    
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+}
+.item:hover{
+    background-color: aliceblue;
+    color: aquamarine;
+}
+.container{
+    padding-top: 50px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.52), rgba(0,0,0, 0.73)),
+    url('https://file.tinnhac.com/resize/600x-/2019/11/30/20191130110110-780d.jpg ');
+    background-size:cover ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_item{
+    background-color: rgba(255,255,255, 0.52);
+    width: 96%;
+    height: 96%;
+    border-radius: 10px;
+}

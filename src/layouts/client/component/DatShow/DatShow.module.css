@@ -1,0 +1,11 @@
+.label{
+    display: flex;
+    align-items: center;
+}
+.chon{
+    width: 90%;
+}
+.ti{
+    font-size: 14px;
+    color: #777;
+}

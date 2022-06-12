@@ -1,0 +1,73 @@
+.tieuDe {
+    width: 95%;
+    position:absolute;
+    left: 2.5%;
+    top: -40px;
+    height: 80px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    padding: 0px 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    }
+    .table{
+        margin-top: 50px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid #bbb;
+        padding: 50px 20px 20px 10px;
+    }
+    .Button{
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background-color: green;
+        width: 120px;
+        height: 40px;
+        cursor: pointer;
+    }
+    .cot{
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        font-weight: 700;
+        font-size: 14px;
+        color: #777;
+    }
+    .hang{
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        font-weight: 700;
+        font-size: 14px;
+        color: #000;
+    
+    }
+    .itemCot{
+        width: 15%;    
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .dieukhienbtn{
+        background-color: brown;
+        color: white;
+        cursor: pointer;
+        width: 50px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
